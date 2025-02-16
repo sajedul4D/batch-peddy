@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet_zone</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="w-11/12 mx-auto py-3 mt-5 flex justify-between items-center ">
+        <div class="flex gap-1 items-center">
+            <img class=" h-5" src="images/logo.webp" alt="">
+            <span class="font-extrabold text-2xl">Peddy</span>
+        </div>
+        <div >
+            <ul class="flex justify-center gap-5 items-center mr-14 ">
+                <li class=" font-bold">Home</li>
+                <li class=" font-bold">Shop</li>
+                <li class=" font-bold">Contact</li>
+                
+            </ul>
+        </div>
+        <div>
+            <img src="https://img.icons8.com/?size=24&id=DvG9sokSVTRZ&format=png" alt="">
+        </div>
+
+
+    </nav>
+    <div class="w-11/12  mx-auto mt-10">
+        <h2 class="text-xl font-bold text-center text-gray-500 ml-10">Bringing Families Together ❤️‍🔥 </h2>
+        <div class="text-center mt-8">
+            <h1 class="text-5xl ml-10  font-bold font-">Your Path to Adoption <br> Starts Here</h1>
+            <h2 class="mt-8 text-gray-500 text-center">It is a long established fact that a reader will be distracted by the readable content of a page when looking <br> at its layout. The point of using Lorem Ipsum is that it has a.</h2>
+        </div>
+        <div class="text-center mt-8">
+        <a href="#viewmore"><button  class="btn btn-success ml-10">View more</button></a>
+        </div>
+        <div class="flex justify-center items-center mt-5">
+            <img  src="images/pet.webp" alt="">
+
+        </div>
+        <div class="text-center mt-8 ml-10 ">
+            <h2 class="text-3xl font-bold">Adopt  Your  Best Friend</h2>
+            <p class="text-gray-500 mt-5">It is a long established fact that a reader will be distracted by the readable content of <br> a page when looking at its layout. The point of using Lorem Ipsum is that it has a.</p>
+        </div>
+
+        
+
+    </div>
+    <section class="w-11/12 mx-auto">
+<div id="category" class="text-2xl font-bold flex lg:gap-[200px] rounded-full justify-center items-center  py-5 flex-wrap ">
+
+</div>
+
+    </section>
+    <div id="viewmore" class="w-11/12 mx-auto mt-10 flex justify-between items-center">
+        <h2 class="text-xl font-bold text-black">Best Deal For You </h2>
+        <button onclick="shortPrice()" class="btn text-white bg-[#0e7a81]">Short Price</button>
+    </div>
+   <!-- loading  -->
+   <div class="flex justify-center">
+    <span id="round-loading" class="loading loading-spinner loading-lg hidden"></span>
+</div>
+
+    <section class="w-11/12 mx-auto flex gap-16">
+        <div id="main-container" class="grid grid-cols-1  lg:grid-cols-3  w-3/4 gap-10">
+
+        </div>
+        <div class="w-1/4 border rounded-xl   border-white">
+            <div id="img-container" class="grid grid-cols-1 lg:grid-cols-2 gap-3 bg-white ">
+
+
+            </div>
+
+            
+
+        </div>
+
+
+    </section>
+    <div>
+      <!-- Open the modal using ID.showModal() method -->
+      <button id="headModel" class="btn hidden" onclick="my_modal_5.showModal()">open modal</button>
+      <dialog  id="customModel" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <div id="model-container">
+      
+          </div>
+          <div class="modal-action">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn ">Close</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
+        
+
+    </div>
+    
+
+
+    <div>
+        <button id="headModel" class="btn hidden" onclick="my_modal_5.showModal()">open modal</button>
+        <dialog  id="customModels" class="modal  sm:modal-middle">
+          <div class="modal-box">
+            <div id="model-containers" class="text-center border border-blue-500 ">
+        
+            </div>
+            <div class="">
+              <form method="dialog " >
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn w-full">Close</button>
+              </form>
+            </div>
+          </div>
+        </dialog>
+
+ 
+</div>
+
+   <footer class="bg-black mt-10" >
+
+    <div class="w-11/12 mx-auto ">
+        <footer class="footer bg-black gap-24 text-base-content p-10">
+            <aside>
+              <div class="flex justify-center items-center gap-2">
+<img src="images/logo.webp" alt="">
+<h2 class="text-2xl font-bold text-white">Peddy</h2>
+              </div>
+              <p class="text-white space-y-5">
+                Location: av. Washington 165, NY CA 54003 <br>
+                Phone: +31 85 964 47 25 <br>
+Email: info@yourdomain.com <br>
+Openings hours: 9.00 AM - 5.00 PM
+              </p>
+              <div class="flex gap-3 mt-5">
+                <img class="w-10 h-10" src="https://img.icons8.com/?size=64&id=msQ6HdxpqUmi&format=png" alt="">
+                <img class=" w-10 h-10 " src="https://img.icons8.com/?size=48&id=19318&format=png" alt="">
+                <img  class="bg-white w-10 h-10" src="https://img.icons8.com/?size=50&id=fJp7hepMryiw&format=png" alt="">
+                <img class="w-10 h-10" src="https://img.icons8.com/?size=50&id=48839&format=png" alt="">
+
+            </div>
+            </aside>
+            
+            <ul>
+              <h6 class="footer-title text-white">Usefull links</h6>
+              <li class="link link-hover">Home</li>
+              <li class="link link-hover">About</li>
+              <li class="link link-hover">Animals</li>
+              <li class="link link-hover">Foundation</li>
+              <li class="link link-hover">Contact us</li>
+            </ul>
+           
+            <div>
+              <h6 class="footer-title text-white">Drop a message</h6>
+              <input type="text" class="h-10 bg-black text-white" placeholder="Enter your Email">
+             <button class="btn bg-green-950 text-white rounded-md w-full">Subscribe</button>
+            </div>
+          </footer>
+
+    </div>
+
+   </footer> 
+</body>
+<script src="index.js"></script>
+</html>
